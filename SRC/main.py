@@ -7,15 +7,15 @@ import os
 import pickle
 
 # setup
-SRC = os.path.abspath('../SRC')
+SRC = os.path.abspath('SRC')
 
 # Load the pipeline using pickle
-pipeline_path = os.path.join(SRC, '../Assets/rfc_pipeline.pkl')
+pipeline_path = os.path.join(SRC, './Assets/rfc_pipeline.pkl')
 with open(pipeline_path, 'rb') as file:
     rfc_pipeline = pickle.load(file)
 
 # Load the encoder using pickle
-encoder_path = os.path.join(SRC, '../Assets/encoder.pkl')
+encoder_path = os.path.join(SRC, './Assets/encoder.pkl')
 with open(encoder_path, 'rb') as file:
     encoder = pickle.load(file)
 

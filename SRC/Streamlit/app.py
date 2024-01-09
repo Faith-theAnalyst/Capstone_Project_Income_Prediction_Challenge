@@ -5,8 +5,8 @@ import os
 
 # Load the model and encoder
 SRC = os.path.abspath('.')
-pipeline_path = os.path.join(SRC, 'rfc_pipeline.pkl')
-encoder_path = os.path.join(SRC, 'encoder.pkl')
+pipeline_path = os.path.join(SRC, './Assets/rfc_pipeline.pkl')
+encoder_path = os.path.join(SRC, './Assets/encoder.pkl')
 
 with open(pipeline_path, 'rb') as file:
     model = pickle.load(file)
