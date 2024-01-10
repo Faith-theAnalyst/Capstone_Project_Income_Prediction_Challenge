@@ -9,7 +9,7 @@ This project aims to leverage machine learning to predict income levels, address
 
 ## Summary
 | Jupyter Notebook |  Deployed App on Hugging Face | Deployed FastAPI on Hugging Face |
-| ----------------- |  ---------------------------- | --------------------------------- |
+| ----------------- | ------------------ | ------------------ | ---------------------------- | --------------------------------- |
 |[Notebook with analysis and model development](https://github.com/Faith-theAnalyst/Capstone_Project_Income_Prediction_Challenge/blob/main/Code/income.ipynb)|   |[Link to Deployed Streamlit App](https://huggingface.co/spaces/Faith-theAnalyst/income_prediction_Streamlit_App)| |[Link to Deployed FastAPI](https://faith-theanalyst-income-fastapi.hf.space/docs)|
 
 ## FastAPI Interface
